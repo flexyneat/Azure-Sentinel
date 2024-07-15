@@ -20,9 +20,6 @@ on:
 jobs:
   deploy-content:
     runs-on: windows-latest
-    runs:
-      using: 'node20'
-      main: 'main.js'
     env:
       resourceGroupName: 'omsresourcegroup'
       workspaceName: 'intelsworkspace'
